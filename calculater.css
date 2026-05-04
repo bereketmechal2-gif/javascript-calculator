@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#cal{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 8px;
+    max-width: 280px;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    padding: 9px;
+    font-size: 2rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(94, 94, 94);
+    color: azure;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 26%);
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 46%);
+}
+button:active{
+     background-color: hsl(0, 0%, 68%);
+}
+.opr{
+    background-color: rgb(197, 105, 0);
+}
+.opr:hover{
+    background-color: orange;
+}
+.opr:active{
+    background-color: rgb(255, 192, 74);
+    color: black;
+}
+.eq{
+    background-color: green;
+}
+.eq:hover{
+    background-color: rgb(3, 206, 3);
+}
+.eq:active{
+    background-color: rgb(97, 255, 97);
+    color: bisque;
+}
+.del{
+    background-color: red;
+}
+.del:hover{
+    background-color: rgb(170, 40, 40);
+}
+.del:active{
+    background-color: rgb(104, 21, 38);
+    color: rgb(218, 188, 151);
+}

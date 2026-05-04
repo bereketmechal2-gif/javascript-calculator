@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="calculater.css">
+</head>
+<body>
+    <div id="cal">
+       <input id="display" readonly>
+       <div id="key">
+        <button onclick="aTOdisplay('+')" class="opr">+</button>
+        <button onclick="aTOdisplay('7')">7</button>
+        <button onclick="aTOdisplay('8')">8</button>
+        <button onclick="aTOdisplay('9')">9</button>
+        <button onclick="aTOdisplay('-')" class="opr">-</button>
+        <button onclick="aTOdisplay('4')">4</button>
+        <button onclick="aTOdisplay('5')">5</button>
+        <button onclick="aTOdisplay('6')">6</button>
+        <button onclick="aTOdisplay('*')" class="opr">×</button>
+        <button onclick="aTOdisplay('1')">1</button>
+        <button onclick="aTOdisplay('2')">2</button>
+        <button onclick="aTOdisplay('3')">3</button>
+        <button onclick="aTOdisplay('/')" class="opr">÷</button>
+        <button onclick="aTOdisplay('0')">0</button>
+        <button onclick="aTOdisplay('.')">.</button>
+        <button onclick="calculat()" class="eq">=</button>
+        <button onclick="back()" class="del" >⟪</button>
+        <button onclick="clearDisplay()" class="del">C</button>
+       </div>
+    </div>
+
+    <script src="calculater.js"></script>
+</body>
+</html>
